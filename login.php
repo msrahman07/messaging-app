@@ -10,7 +10,7 @@
     <div class="wrapper">
         <section class="form login">
             <header> Chat App</header>
-            <form action="#">
+            <form action="php/login.php" method="post">
                 <div class="error-txt">This is an error message!</div>
                 <div class="field input">
                     <label for="">Email Address</label>
@@ -28,11 +28,16 @@
                 </div>
                 <div class="link">Not yet signed up? <a href="index.php">Signup now</a></div>
             </form>
+            <form id="demo" action="php/demo.php" method="post">
+                <div class="field button">
+                    <input type="submit" value="Demo the app">
+                </div>
+            </form>
         </section>
     </div>
     <script src="js/pass-show-hide.js"></script>
+    <script src="js/demo.js"></script>
     <script src="js/login.js"></script>
-
 </body>
 
 </html>

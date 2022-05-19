@@ -10,7 +10,7 @@
     <div class="wrapper">
         <section class="form signup">
             <header> Chat App</header>
-            <form id="signupForm" action="#" method="POST" enctype="multipart/form-data">
+            <form id="signupForm" action="php/signup.php" method="POST" enctype="multipart/form-data">
                 <div class="error-txt"></div>
                 <div class="name-details">
                     <div class="field input">
@@ -42,10 +42,16 @@
                 </div>
                 <div class="link">Already signed up? <a href="#">Login now</a></div>
             </form>
+            <form id="demo" action="php/demo.php" method="post">
+                <div class="field button">
+                    <input type="submit" value="Demo the app">
+                </div>
+            </form>
         </section>
     </div>
     <script src="js/pass-show-hide.js"></script>
     <script src="js/signup.js"></script>
+    <script src="js/demo.js"></script>
 </body>
 
 </html>
